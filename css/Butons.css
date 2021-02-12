@@ -36,8 +36,7 @@
     transition: all 0.5s ease;
   }
   .btn--middle {
-    left: 47%;
-    top: 10%;
+    left: 46%;
   }
   .btn:-moz-focus-inner {
     padding: 0;
