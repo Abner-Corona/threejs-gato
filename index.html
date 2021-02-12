@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/png" href="/public/gato.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/Butons.css" />
+    <link rel="stylesheet" href="css/Principal.css" />
+    <link rel="stylesheet" href="css/Loadings.css" />
+    <title>Gato</title>
+  </head>
+  <body>
+    <div id="Menu" class="menu">
+      <p class="gato-title">Gato</p>
+      <div id="lds-default" class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+      <button id="startGameCross" class="btn btn--middle btn--stripe">╳</button>
+      <button id="startGameCircle" class="btn btn--middle btn--stripe">
+        ◯
+      </button>
+    </div>
+    <div class="contentImage" id="contentImage">
+      <button id="backGame" class="btn btn--stripe">⇐</button>
+      <button id="restartGame" class="btn btn--stripe">↻</button>
+      <div id="Endgame" class="endgame">
+        <p class="gato-title">Ganaste!</p>
+      </div>
+      <div
+        id="sliderImage"
+        data-images='["img/c1.jpg", "img/c2.jpg"]'
+        class="background-game"
+      ></div>
+    </div>
+    <script src="js/three.js"></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/OBJLoader.js"></script>
+
+    <script src="js/gato.js"></script>
+  </body>
+</html>
